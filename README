@@ -1,0 +1,8 @@
+To Use:
+
+1. Install various libraries into your Maven repository (see maven_installs.txt for examples)
+2. Run "mvn package"
+3. Edit the prokawa.sh to point to your newly built jar plus the native libraries for OpenGL (if needed)
+4. Run scripts using prokawa.sh like it is kawa.sh: ./prokawa.sh -f ./MyApp.scm
+5. Email me what you think :D
+
