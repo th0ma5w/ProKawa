@@ -6,3 +6,4 @@ To Use:
 4. Run scripts using prokawa.sh like it is kawa.sh: ./prokawa.sh -f ./MyApp.scm
 5. Email me what you think :D
 
+Get the Kawa library at http://www.gnu.org/software/kawa/
