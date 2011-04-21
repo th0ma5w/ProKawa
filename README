@@ -7,3 +7,7 @@ To Use:
 5. Email me what you think :D
 
 Get the Kawa library at http://www.gnu.org/software/kawa/
+
+TODO:
+
+Looking at live coding, but will have to pass the g object to the new class and make sure to register the class properly.
