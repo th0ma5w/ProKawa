@@ -1,0 +1,6 @@
+mvn install:install-file -DgroupId=org.processing -DartifactId=processing-core -Dversion=1.5 -Dpackaging=jar -Dfile=core.jar
+mvn install:install-file -DgroupId=org.gnu -DartifactId=kawa -Dversion=1.11 -Dpackaging=jar -Dfile=kawa-1.11.jar
+mvn install:install-file -DgroupId=net.sourceforge -DartifactId=GLGraphics -Dversion=20110411 -Dpackaging=jar -Dfile=GLGraphics.jar
+mvn install:install-file -DgroupId=org.processing -DartifactId=opengl -Dversion=1.5 -Dpackaging=jar -Dfile=opengl.jar
+vn install:install-file -DgroupId=org.processing -DartifactId=jogl -Dversion=1.5 -Dpackaging=jar -Dfile=jogl.jar
+mvn install:install-file -DgroupId=org.processing -DartifactId=gluegen-rt -Dversion=1.5 -Dpackaging=jar -Dfile=gluegen-rt.jar
