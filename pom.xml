@@ -32,7 +32,7 @@
    <dependency>
       <groupId>net.sourceforge</groupId>
       <artifactId>GLGraphics</artifactId>
-      <version>20110411</version>
+      <version>0.95</version>
   </dependency>
     <!-- Start OPENGL -->
     <dependency>
