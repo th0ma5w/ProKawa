@@ -1,12 +1,31 @@
 To Use:
 
+1. Define your CLASSPATH in the manual_environment file
+2. Add or remove JAR files and paths to .class files as needed
+3. Ensure the path to the native OpenGL libraries are in the library path
+4. Run scripts using prokawa.sh like it is kawa.sh: ./prokawa.sh -f ./MyApp.scm
+
+To Use with Maven (to add actual java code into the dummy source code files):
+
 1. Install various libraries into your Maven repository (see maven_installs.txt for examples)
 2. Run "mvn package"
 3. Edit the prokawa.sh to point to your newly built jar plus the native libraries for OpenGL (if needed)
 4. Run scripts using prokawa.sh like it is kawa.sh: ./prokawa.sh -f ./MyApp.scm
 5. Email me what you think :D
 
-Get the Kawa library at http://www.gnu.org/software/kawa/
+To compile to bytecode .class file:
+
+1. Follow one or both the above
+2. Start the Kawa interpreter with the -C flag pointed at your script source
+3. See -h for help, or included example PolarUnravel from toxiclibs
+
+Required libraries as presented here:
+
+Processing core at http://www.processing.org/
+GLGraphics at http://glgraphics.sourceforge.net/
+toxiclibs at http://toxiclibs.org/
+Kawa at http://www.gnu.org/software/kawa/
+
 
 TODO:
 

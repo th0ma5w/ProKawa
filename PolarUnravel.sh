@@ -1,9 +1,15 @@
 #!/bin/bash
 
-./prokawa-toxi.sh --main -T go --module-static -C ./PolarUnravel.scm
+#load the environment
 
-export J=java
-export CLASSPATH=./:./lib/toxiclibs/dist/colorutils.jar:./lib/toxiclibs/dist/toxiclibscore.jar:./target/prokawa-1.0-SNAPSHOT-jar-with-dependencies.jar:
-export LIBPATH=./lib/toxiclibs/lib/jogl/
+. manual_environment
+
+
+#compile the class, not entirely necessary, but demonstrated here
+
+$J -cp $CLASSPATH -Djava.library.path=$LIBPATH kawa.repl --main -T go --module-static -C ./PolarUnravel.scm
+
+
+#call the compiled class, it will be found in the current working path as specified in line one of classpath above
 
 $J -cp $CLASSPATH -Djava.library.path=$LIBPATH go

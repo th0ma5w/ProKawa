@@ -1,0 +1,18 @@
+#!/bin/bash
+
+export J=/usr/bin/java
+
+CLASSPATH=./
+CLASSPATH=$CLASSPATH:./lib/toxiclibs/dist/colorutils.jar
+CLASSPATH=$CLASSPATH:./lib/toxiclibs/dist/toxiclibscore.jar
+CLASSPATH=$CLASSPATH:./lib/toxiclibs/lib/jogl/jogl.jar
+CLASSPATH=$CLASSPATH:./lib/toxiclibs/lib/jogl/opengl.jar
+CLASSPATH=$CLASSPATH:./lib/toxiclibs/lib/jogl/gluegen-rt.jar
+CLASSPATH=$CLASSPATH:/home/thomas/processing-svn/processing/build/linux/work/lib/core.jar
+CLASSPATH=$CLASSPATH:./lib/GLGraphics/library/GLGraphics.jar
+CLASSPATH=$CLASSPATH:./lib/kawa-1.11.jar
+
+export CLASSPATH
+
+export LIBPATH=./lib/toxiclibs/lib/jogl/
+
