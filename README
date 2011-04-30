@@ -19,9 +19,14 @@ To compile to bytecode .class file:
 2. Start the Kawa interpreter with the -C flag pointed at your script source
 3. See -h for help, or included example PolarUnravel from toxiclibs
 
-Additionally, while PolarUnravel.sh compiles the code, this isn't requrired, you can simply:
+Additionally:
 
-./prokawa.sh -f PolarUnravel.scm
+1. While PolarUnravel.sh compiles the code, this isn't requrired, you can simply:
+
+	./prokawa.sh -f PolarUnravel.scm
+
+2. The Maven layout includes a starting point from the default template with which you can add your own Java.
+
 
 Required libraries as presented here:
 
