@@ -1,6 +1,6 @@
 To Use:
 
-1. Define your CLASSPATH in the manual_environment file
+1. Define your CLASSPATH and Java executable in the manual_environment file
 2. Add or remove JAR files and paths to .class files as needed
 3. Ensure the path to the native OpenGL libraries are in the library path
 4. Run scripts using prokawa.sh like it is kawa.sh: ./prokawa.sh -f ./MyApp.scm
